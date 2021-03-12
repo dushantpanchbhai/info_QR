@@ -1,0 +1,23 @@
+
+.photo{
+    width: 60%;
+}
+ 
+.qr{
+    width:40%;
+}
+.container {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.container-2{
+    padding-top: 20px;
+    display: block;
+}
+
+.description{
+    padding-top: 25px;
+    padding-left: 50px;
+}

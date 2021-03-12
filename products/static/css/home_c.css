@@ -1,0 +1,26 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+}
+
+.container {
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.heading{
+    margin-top: 20px;
+}
+.main-fill{
+    text-align: left;
+}
+
+.myfieldclass{
+    padding: 10px;
+    border-radius: 10px;
+}
+p{
+   display: flex-block; 
+}
+

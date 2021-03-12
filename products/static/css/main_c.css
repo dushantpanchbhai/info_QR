@@ -1,0 +1,30 @@
+* {
+    margin-top:  10px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-box{
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+}
+.image-description
+{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+.image-description img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.image-description p
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

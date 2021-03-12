@@ -1,0 +1,25 @@
+{%load static %}
+<html>
+<head>
+</head>
+<link rel="stylesheet" href="{%static 'css/qr_c.css'%}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<body>
+{%for j in product.all%}
+<div class="container">
+    <h1>{{j.name}}</h1>
+<hr>
+<div class="container-2">
+    <img class='photo' src="{{j.image.url}}">
+    <p class="description">{{j.description}}</p>
+    {%for i in qr.all%}
+    <img class = 'qr' src="{{i.image.url}}">
+    <br>
+    <a href="{{i.image.url}}" download="GFG">download</a>
+</div>
+{%endfor%}
+</div>
+{%endfor%}
+
+</body>
+</html>
